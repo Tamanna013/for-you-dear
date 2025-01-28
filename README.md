@@ -55,67 +55,23 @@ This file handles the functionality of draggable notes. It:
 -- Updates the z-index dynamically to ensure the dragged note appears on top.
 
 Key logic includes:
--- handleMove: Calculates the position and rotation of each card during a drag.
+-- handleMove: Calculates the position and rotation of each card during a drag.<br>
+-- init: Adds event listeners to make each card draggable and rotatable.
 
-init: Adds event listeners to make each card draggable and rotatable.
+###How It Works: The webpage loads with several draggable cards. Each card has a unique message and image. Users can click and drag cards around the screen, rearranging them as desired. Subtle hover effects enhance the user experience.
 
-4. Images Folder
+## Steps to Run Locally
 
-Contains:
-
-front.png: Background image for the notes.
-
-Multiple images (image1.jpeg, image2.jpeg, etc.) paired with each message.
-
-How It Works
-
-The webpage loads with several draggable cards.
-
-Each card has a unique message and image.
-
-Users can click and drag cards around the screen, rearranging them as desired.
-
-Subtle hover effects enhance the user experience.
-
-Usage
-
-Steps to Run Locally
-
-Clone the repository:
-
-git clone https://github.com/Tamanna013/for-you-dear.git
-
-Navigate to the project directory:
-
-cd for-you-dear
-
-Open index.html in your browser to view the project.
-
-Deployment
-
-The website can be deployed using GitHub Pages or any static hosting platform.
+Clone the repository: git clone https://github.com/Tamanna013/for-you-dear.git <br>
+Navigate to the project directory: cd for-you-dear <br>
+Open index.html in your browser to view the project.<br>
 
 Technologies Used
 
-HTML5: For structure.
-
-CSS3: For styling and animations.
-
-JavaScript (Vanilla): For interactivity.
-
-Future Enhancements
-
-Add responsive touch gestures for better mobile experience.
-
-Implement a save feature to retain card positions.
-
-Add sound effects when cards are dragged.
-
-Enhance accessibility with ARIA roles and labels.
-
-Create a personalization option for users to add their own text and images.
+-- HTML5: For structure.<br>
+-- CSS3: For styling and animations.<br>
+-- JavaScript: For interactivity.
 
 Credits
-
-Created with love by Tamanna (Tamanna013) 🌸💜
+Created with love by Tamanna (Tamanna013) 🌸💜<br> Reference: 
 
