@@ -37,14 +37,14 @@ This is the primary file that defines the structure of the webpage. Key elements
 <u>Head Section: </u><br>
 Imports Google Fonts (Caveat, Oswald, and Playfair Display). Links the styles.css file for styling. Includes a title, "For you dear 🌸🌻".<br>
 <u>Body Section: </u><br>
-Contains multiple <div class="paper image"> elements, each representing a draggable paper card. Each card has a <p> tag for the text message. An <img> tag to display an associated image.<br>
+Contains multiple `<div class="paper image">` elements, each representing a draggable paper card. Each card has a `<p>` tag for the text message. An `<img>` tag to display an associated image.<br>
 
 ### 2. styles.css<br>
 This file defines the visual appearance of the website. Key sections include:<br>
 A. <u>General Styling: </u><br>
 body styled with a black background and a centered layout. Background images and hover effects are implemented for a polished look.
 B. <u>Paper Cards: </u><br>
-.paper class styles each note with a shadow, padding, and rotation for an organic, handwritten feel. .paper:hover enhances the shadow for an interactive hover effect.
+`.paper` class styles each note with a shadow, padding, and rotation for an organic, handwritten feel. `.paper:hover` enhances the shadow for an interactive hover effect.
 C. <u>Fonts and Colors:</u><br>
 Custom fonts (Caveat for a handwritten look, Playfair Display for elegance). Text colors and shadows for a vivid and readable design.
 
