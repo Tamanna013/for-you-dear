@@ -32,46 +32,46 @@ Root Directory:<br>
 
 ## Detailed Explanation of Files
 
-### 1. index.html
+### 1. index.html<br>
 This is the primary file that defines the structure of the webpage. Key elements include:<br>
-<u>Head Section: </u>
-Imports Google Fonts (Caveat, Oswald, and Playfair Display). Links the styles.css file for styling. Includes a title, "For you dear 🌸🌻".
-<u>Body Section: <u>
-Contains multiple <div class="paper image"> elements, each representing a draggable paper card. Each card has a <p> tag for the text message. An <img> tag to display an associated image.
+<u>Head Section: </u><br>
+Imports Google Fonts (Caveat, Oswald, and Playfair Display). Links the styles.css file for styling. Includes a title, "For you dear 🌸🌻".<br>
+<u>Body Section: </u><br>
+Contains multiple <div class="paper image"> elements, each representing a draggable paper card. Each card has a <p> tag for the text message. An <img> tag to display an associated image.<br>
 
-### 2. styles.css
+### 2. styles.css<br>
 This file defines the visual appearance of the website. Key sections include:<br>
-A. General Styling:<br>
+A. <u>General Styling: </u><br>
 body styled with a black background and a centered layout. Background images and hover effects are implemented for a polished look.
-B. Paper Cards:<br>
+B. <u>Paper Cards: </u><br>
 .paper class styles each note with a shadow, padding, and rotation for an organic, handwritten feel. .paper:hover enhances the shadow for an interactive hover effect.
-C. Fonts and Colors:<br>
+C. <u>Fonts and Colors:</u><br>
 Custom fonts (Caveat for a handwritten look, Playfair Display for elegance). Text colors and shadows for a vivid and readable design.
 
-3. script.js
-This file handles the functionality of draggable notes. It:
+### 3. script.js<br>
+This file handles the functionality of draggable notes. It:<br>
 -- Implements mouse and touch event listeners.<br>
 -- Tracks drag-and-drop movement for each paper card.<br>
--- Updates the z-index dynamically to ensure the dragged note appears on top.
+-- Updates the z-index dynamically to ensure the dragged note appears on top.<br>
 
 Key logic includes:
 -- handleMove: Calculates the position and rotation of each card during a drag.<br>
--- init: Adds event listeners to make each card draggable and rotatable.
+-- init: Adds event listeners to make each card draggable and rotatable.<br><br>
 
-###How It Works: The webpage loads with several draggable cards. Each card has a unique message and image. Users can click and drag cards around the screen, rearranging them as desired. Subtle hover effects enhance the user experience.
+<u>How It Works: </u>The webpage loads with several draggable cards. Each card has a unique message and image. Users can click and drag cards around the screen, rearranging them as desired. Subtle hover effects enhance the user experience.<br>
 
 ## Steps to Run Locally
 
 Clone the repository: git clone https://github.com/Tamanna013/for-you-dear.git <br>
 Navigate to the project directory: cd for-you-dear <br>
-Open index.html in your browser to view the project.<br>
+Open index.html in your browser to view the project. <br>
 
-Technologies Used
+## Technologies Used
 
 -- HTML5: For structure.<br>
 -- CSS3: For styling and animations.<br>
 -- JavaScript: For interactivity.
 
-Credits
+## Credits
 Created with love by Tamanna (Tamanna013) 🌸💜<br> Reference: 
 
