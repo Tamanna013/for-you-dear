@@ -4,13 +4,13 @@
 A heartfelt project that combines creativity, interactive design, and sentimental elements. This repository is a gift website, designed with love, featuring draggable notes and personalized messages paired with images.
 
 Table of Contents
--- Overview
--- Features
--- File Structure
--- How It Works
--- Usage
--- Technologies Used
--- Future Enhancements
+-- Overview<br>
+-- Features<br>
+-- File Structure<br>
+-- How It Works<br>
+-- Usage<br>
+-- Technologies Used<br>
+-- Future Enhancements<br>
 
 ## Overview
 
@@ -41,34 +41,21 @@ Contains multiple <div class="paper image"> elements, each representing a dragga
 
 ### 2. styles.css
 This file defines the visual appearance of the website. Key sections include:
-General Styling:
+A. General Styling:<br>
 body styled with a black background and a centered layout. Background images and hover effects are implemented for a polished look.
-
-Paper Cards:
-
-.paper class styles each note with a shadow, padding, and rotation for an organic, handwritten feel.
-
-.paper:hover enhances the shadow for an interactive hover effect.
-
-Fonts and Colors:
-
-Custom fonts (Caveat for a handwritten look, Playfair Display for elegance).
-
-Text colors and shadows for a vivid and readable design.
+B. Paper Cards:<br>
+.paper class styles each note with a shadow, padding, and rotation for an organic, handwritten feel. .paper:hover enhances the shadow for an interactive hover effect.
+C. Fonts and Colors:<br>
+Custom fonts (Caveat for a handwritten look, Playfair Display for elegance). Text colors and shadows for a vivid and readable design.
 
 3. script.js
-
 This file handles the functionality of draggable notes. It:
-
-Implements mouse and touch event listeners.
-
-Tracks drag-and-drop movement for each paper card.
-
-Updates the z-index dynamically to ensure the dragged note appears on top.
+-- Implements mouse and touch event listeners.<br>
+-- Tracks drag-and-drop movement for each paper card.<br>
+-- Updates the z-index dynamically to ensure the dragged note appears on top.
 
 Key logic includes:
-
-handleMove: Calculates the position and rotation of each card during a drag.
+-- handleMove: Calculates the position and rotation of each card during a drag.
 
 init: Adds event listeners to make each card draggable and rotatable.
 
