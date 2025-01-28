@@ -7,10 +7,10 @@ Table of Contents<br>
 -- Overview<br>
 -- Features<br>
 -- File Structure<br>
--- How It Works<br>
--- Usage<br>
+-- Detailed Explanation of Files<br>
+-- Steps to Run Locally<br>
 -- Technologies Used<br>
--- Future Enhancements<br>
+-- Credits<br>
 
 ## Overview
 
