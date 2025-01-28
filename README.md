@@ -17,30 +17,30 @@ Table of Contents<br>
 "For You, Dear" is a fun, interactive project showcasing draggable paper cards that reveal heartfelt messages and images. It's designed to offer a personalized and interactive experience for someone special. This project leverages HTML, CSS, and JavaScript to create a smooth, visually appealing interface.
 
 ## Features
--- Draggable Notes: Users can drag and rearrange the notes freely.
--- Custom Fonts: Unique fonts for a handwritten, personalized look.
--- Hover Effects: Subtle hover animations for a polished touch.
--- Responsive Design: Optimized for desktop and mobile devices.
--- Interactive Messages: Each note contains meaningful text and paired images to convey emotions.
+-- Draggable Notes: Users can drag and rearrange the notes freely.<br>
+-- Custom Fonts: Unique fonts for a handwritten, personalized look.<br>
+-- Hover Effects: Subtle hover animations for a polished touch.<br>
+-- Responsive Design: Optimized for desktop and mobile devices.<br>
+-- Interactive Messages: Each note contains meaningful text and paired images to convey emotions.<br>
 
 ## File Structure
-Root Directory:
--- index.html: The main HTML file containing the structure of the webpage.
--- styles.css: The CSS file responsible for styling the webpage, including fonts, colors, and layout.
--- script.js: The JavaScript file adding interactivity, such as drag-and-drop functionality and animations.
--- Rest are just images used in the project.
+Root Directory:<br>
+-- index.html: The main HTML file containing the structure of the webpage.<br>
+-- styles.css: The CSS file responsible for styling the webpage, including fonts, colors, and layout.<br>
+-- script.js: The JavaScript file adding interactivity, such as drag-and-drop functionality and animations.<br>
+-- Rest are just images used in the project.<br>
 
 ## Detailed Explanation of Files
 
 ### 1. index.html
-This is the primary file that defines the structure of the webpage. Key elements include:
-<u>Head Section:</u>
+This is the primary file that defines the structure of the webpage. Key elements include:<br>
+<u>Head Section: </u>
 Imports Google Fonts (Caveat, Oswald, and Playfair Display). Links the styles.css file for styling. Includes a title, "For you dear 🌸🌻".
-<u>Body Section:<u>
+<u>Body Section: <u>
 Contains multiple <div class="paper image"> elements, each representing a draggable paper card. Each card has a <p> tag for the text message. An <img> tag to display an associated image.
 
 ### 2. styles.css
-This file defines the visual appearance of the website. Key sections include:
+This file defines the visual appearance of the website. Key sections include:<br>
 A. General Styling:<br>
 body styled with a black background and a centered layout. Background images and hover effects are implemented for a polished look.
 B. Paper Cards:<br>
