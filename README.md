@@ -1,9 +1,9 @@
 # For You, Dear 🌸🌻
-![Project Screenshot](screenshot.png)
+![Project Screenshot](./screenshot.png)
 
 A heartfelt project that combines creativity, interactive design, and sentimental elements. This repository is a gift website, designed with love, featuring draggable notes and personalized messages paired with images.
 
-Table of Contents
+Table of Contents<br>
 -- Overview<br>
 -- Features<br>
 -- File Structure<br>
